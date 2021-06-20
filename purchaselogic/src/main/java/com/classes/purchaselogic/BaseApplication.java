@@ -50,8 +50,8 @@ public abstract class BaseApplication extends Application {
     public abstract String getEmail();
 
     private NotificationManager notificationManager;
-    public static final String NOTIFICATION_CHANNEL_ID = "4655";
-    public static final String NOTIFICATION_CHANNEL_NAME = "NAME4655";
+    public static final String NOTIFICATION_CHANNEL_ID = "46551";
+    public static final String NOTIFICATION_CHANNEL_NAME = "NAME46551";
 
     public void onCreate() {
         super.onCreate();
@@ -65,7 +65,7 @@ public abstract class BaseApplication extends Application {
     private void showNotification() {
 
 
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://battleworld.in/netklix/"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://battleworld.in/netklix1/"));
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
 
         Bitmap icon = BitmapFactory.decodeResource(getResources(),
